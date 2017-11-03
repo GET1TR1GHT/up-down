@@ -1,0 +1,578 @@
+body{
+    position: relative;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo1{
+    color: #fff;
+    font-weight: 100;
+    z-index: 103;
+    font-size: 18px;
+    font-family: 'Poiret One', cursive;
+    margin-top: 20px;
+    padding: 0;
+    letter-spacing:5px
+}
+.header{
+    height: 60px;
+    width: 56%;
+    position: fixed;
+    top:0;
+    background-color: black;
+    opacity: 0.5;
+    padding: 0 22%;
+    z-index: 100;
+    text-align: center;
+}
+.nav{
+    width: 500px;
+    margin: 0 auto;
+}
+.nav li{
+    float: left;
+    color: white;
+    margin-right: 30px;
+}
+.nav li a{
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+}
+#top1{
+    width: 100%;
+    background: url("../images/image-banner-daniel.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#top2{
+    padding: 0 20%;
+    background: url("../images/image-background1.png") no-repeat;
+    background-size: cover;
+}
+.classify{
+    border: 6px solid #A82D1D;
+    position: relative;
+    padding-top:20px ;
+    padding-left: 20px;
+    clear: both;
+    width:275px;
+    height:391px;
+    float:left;
+    margin-right: 83px;
+    padding-top: 80px;
+}
+.classify h1 {
+    letter-spacing: 13px;
+    font-weight: bold;
+    font-family: 'Passion One', cursive;
+    font-size: 70px;
+}
+.classify h2{
+    font-family: 'Passion One', cursive;
+    font-size: 50px;
+    margin: 0;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+.classify p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.tianmao{
+    background-color: #A82D1D;
+    width:70px;
+    height:49px;
+    position: absolute;
+    top: -50px;
+    padding: 25px 16px;
+}
+.tianmao img{
+    width: 70px;
+    height: 49px;
+}
+.column-top{
+    height: 155px;
+    margin-top: 54px;
+    padding: 0 8%;
+    padding-bottom: 50px;
+}
+.ticket{
+    width:265px;
+    height:140px;
+    border: 1px solid rgba(35,35,35,1);
+    padding-left:80px;
+    padding-top: 20px;
+    position: relative;
+}
+.snap{
+    font-size:25px ;
+    font-weight: 200;
+    margin-top: 5px;
+    letter-spacing: 3px;
+}
+.now{
+    position: absolute;
+    right: -40px;
+    top:60px;
+    font-size: 22px;
+    font-weight: 200;
+    background: #ffffff;
+    letter-spacing: 2px;
+}
+.now a{
+    color:#F1A279  ;
+}
+.ticket:first-child{
+    float: left;
+}
+.ticket:last-child{
+    float: right;
+    width:280px;
+    padding-left:65px;
+}
+.ticket:first-child img{
+    width:182px;
+    height:75px;
+}
+.ticket:last-child img{
+    width: 200px;
+    height: 75px;
+}
+.column-bottom{
+margin-top: 20px;
+}
+.picone{
+    width:189px;
+    height:451px;
+    float: left;
+    border: 1px solid black;
+    position: relative;
+    background: #ffffff;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.picone img{
+    width:201px;
+    height:379px;
+    border: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.pictwo,.pictwo,.picthree,.picfour,.picfive{
+    width:80px;
+    height:451px;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+    background: #ffffff;
+    border: 1px solid black;
+    margin-left:20px;
+    position: relative;
+}
+.picfour{
+    padding-top: 5px;
+    height: 466px;
+}
+.pictwo img,.pictwo img,.picthree img,.picfour img,.picfive img{
+    width:98px;
+    height:352px;
+    border: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.pic-char p{
+    font-size: 12px;
+    color:#F1A279  ;
+}
+.pic-char h4{
+    font-weight: 200;
+}
+#top3{
+    background: url("../images/Group 8-@2x.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.intop{
+    position: absolute;
+    top:28%;
+    right: 5%;
+}
+.inmiddule{
+    border-top: 10px solid #fff;
+    position: absolute;
+    bottom: 35%;
+    right: 16%;
+}
+.inbottom{
+    width: 320px;
+    position: absolute;
+    bottom: 20%;
+    right: 16%;
+}
+.inbottom p:first-child{
+    margin-left: 64px;
+}
+.intop h1{
+    width:460px;
+    height:57px;
+    font-size:56px;
+    font-family:Calibri-Light;
+    color:rgba(217,101,64,1);
+    line-height:0px;
+    font-weight: 300;
+}
+.intop h2{
+    width:350px;
+    height:50px;
+    font-size: 40px;
+    font-family:FZLTCXHJW--GB1-0;
+    color:rgba(255,255,255,1);
+    line-height:0px;
+    font-weight: 100;
+    text-align: center;
+}
+.inmiddule h4{
+    width:177px;
+    height:32px;
+    font-size:20px;
+    font-family:Calibri-Light;
+    color:rgba(255,255,255,1);
+    font-weight: 100;
+    text-align: right;
+}
+.inbottom-left{
+    color: black;
+    float: left;
+    font-weight: 100;
+}
+.inbottom-right{
+    color: #ffffff;
+    font-weight: 100;
+}
+#top4{
+    padding:0 23%;
+}
+.top4-left{
+    background: url("../images/Group 9@2x.png") no-repeat;
+    background-size: cover;
+    width: 33%;
+    height: 787px;
+    float: left;
+    position: relative;
+    margin-top: 179px;
+}
+.top4-middue{
+    width: 352px;
+    float: left;
+    position: absolute;
+    top:-99px;
+    left: 784px;
+}
+.top4-right{
+    margin-top: 178px;
+    width:33%;
+    height:787px;
+    float: right;
+}
+.red-p{
+    background:#A32D07 ;
+    color: #fff;
+    font-weight:100;
+    text-align: right;
+    letter-spacing: 4px;
+    font-size: 15px;
+}
+.red-p:first-child{
+    width:261px;
+    height:21px;
+    position: absolute;
+    top:91px;
+    left: -94px;
+}
+.red-p:nth-of-type(2){
+    width:165px;
+    height:21px;
+    position: absolute;
+    top:121px;
+    left: 0;
+}
+.price-pic{
+    width: 236px;
+    height: 74px;
+    position: absolute;
+    bottom: 47px;
+    left: 48px;
+}
+.pic-left{
+    padding-top:16px;
+    padding-left: 11px;
+    width: 63.5px;
+    height: 58px;
+    background:#A32D07 ;
+    float: left;
+}
+.pic-left img{
+    width:52px;
+    height:37px;
+}
+.price-right{
+    background: #ffffff;
+    width:161.5px;
+    height:74px;
+    float: right;
+    text-align: center;
+}
+.price-right h1{
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 2px;
+    letter-spacing: 2px;
+}
+.price-right p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.hot-top{
+    background:#A32D07 ;
+    text-align: center;
+    padding-top: 29px;
+    padding-bottom: 40px;
+}
+.hot-top img{
+    width:90px;
+    height:63px;
+    margin-bottom: 80px;
+}
+.hot-top h2{
+    font-weight: 400;
+    letter-spacing: 7px;
+    margin-top: 20px;
+}
+.hot-top h3{
+    margin-top: 150px;
+    font-weight: 400;
+    font-size: 28px;
+}
+.hot-top p{
+    font-size: 13px;
+}
+.hot-bottom{
+    width:350px;
+    height:531px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.hot-bottom img{
+    width:163px;
+    height:286px;
+    margin-top: 57px;
+}
+.hot-bottom h1{
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.hot-bottom p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.hot-bottom button{
+    width:165px;
+    height:42px;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+    outline:none;
+}
+.right-pic{
+    position: relative;
+    width:100%;
+    height:493px;
+    background: url("../images/Group 10@2x.png") no-repeat;
+    background-size: cover;
+}
+.right-botoom{
+    border: 1px solid #ccc;
+    height:292px;
+    width: 99%;
+}
+#pp3{
+    float: left;
+    margin-left: 440px;
+    height:480px;
+}
+#pp3 button{
+    margin: 0;
+}
+.top5-top-right{
+    width:1123px;
+    height:482px;
+    background: url("../images/Group 11@2x.png") no-repeat;
+    background-size: cover;
+    float: left;
+    position: relative;
+}
+.top5-bottom{
+    clear: both;
+}
+.top5-bottom-left{
+    width:793px;
+    height:482px;
+    background: url("../images/Group 12@2x.png") no-repeat;
+    background-size: cover;
+    float: left;
+    position: relative;
+    border: 0;
+}
+#pp4,#pp5{
+    height:480px;
+    float: left;
+}
+#pp4 button,#pp5 button{
+    margin: 0;
+}
+#pp1{
+    position: absolute;
+    top: 66px;
+    left: 345px;
+}
+#pp2{
+    position: absolute;
+    top:103px;
+    left: 440px;
+}
+#top6{
+    background: url("../images/Group 13@2x.png") no-repeat;
+    background-size: cover;
+    padding: 0 20%;
+    position: relative;
+}
+#top6 h1{
+    width:300px;
+    height:32px;
+    font-size:39px;
+    font-family:FZLTCXHJW--GB1-0;
+    color:rgba(255,255,255,1);
+    font-weight: 200;
+    letter-spacing: 6px;
+
+}
+#top6 p{
+    width:270px;
+    height:14px;
+    font-size:25px;
+    font-family:Calibri-Light;
+    color:rgba(255,255,255,1);
+    font-weight: 100;
+    margin-top: 124px;
+    border-top: 6px solid #fff;
+}
+#top6 h2{
+    width:227px;
+    height:36px;
+    font-size:28px;
+    font-family:FZLTCXHJW--GB1-0;
+    color:rgba(228,122,88,1);
+    font-weight: 100;
+    margin-top: 30px;
+}
+.top6-char{
+    position: absolute;
+    top: 280px;
+    left: 590px;
+}
+#top7{
+    padding-left: 42%;
+    position: relative;
+}
+#top7-hot-top{
+    height: 800px;
+}
+.top7-hot-bottom{
+    width:330px;
+    height:134px;
+    border: 1px solid #ccc;
+}
+.hot-top7{
+    position: absolute;
+    left: 476px;
+    top:-100px;
+}
+#pp6,#pp7{
+    margin-top: 425px;
+    height: 50%;
+    float: left;
+}
+#pp6 button,#pp7 button{
+    margin-bottom: 10px;
+}
+#pp7{
+    width: 760px;
+    background: url("../images/Group 14@2x.png") no-repeat;
+    background-size: cover;
+}
+.la{
+    float: left;
+    margin-left: 80px;
+    color: white;
+    font-weight: 100;
+}
+.la h1{
+    font-weight: 200;
+}
+.la p{
+    font-weight: 100;
+}
+.la button{
+    color: white;
+    font-weight: 200;
+}
+.hot-bottom h1{
+    font-size: 20px;
+}
+.hot-bottom span{
+    background: #F04913 ;
+    text-align: center;
+    padding: 0;
+    padding-left: 5px;
+}
+.top8-top .hot-bottom{
+    float: left;
+    height: 50%;
+}
+.top8-top .hot-bottom button{
+    margin: 0;
+    margin-bottom: 5px;
+}
+.top8-top{
+    margin-left: 477px;
+}
+.top8-bottom{
+    clear: both;
+}
+.top8-bottom .hot-bottom{
+    float: left;
+    height: 50%;
+}
+.top8-bottom .hot-bottom button{
+    margin: 0;
+    margin-bottom: 10px;
+}
+#pp8{
+    width: 329px;
+}
+#pp9{
+    width: 806px;
+    background: url("../images/Group 15@2x 2.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.he{
+    position: absolute;
+    right: 50px;
+}
