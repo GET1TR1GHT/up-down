@@ -21,6 +21,8 @@ up-down
 
 ### 1、选项
 ============
+
+
 | verticalCentered | 字符串 | true | 内容是否垂直居中 |
 |---|---|---|---|
 | resize | 布尔值 | false | 字体是否随着窗口缩放而缩放 |
@@ -52,6 +54,8 @@ up-down
 | animateAnchor | 布尔值 | true |  |
 | normalScrollElementTouchThreshold | 整数 | 5 |
 
+
+
 ### 2、方法
 ===========
 
@@ -65,6 +69,8 @@ up-down
 | setAllowScrolling() | 添加或删除鼠标滚轮/触控板控制 |
 | setKeyboardScrolling() | 添加或删除键盘方向键控制 |
 | setScrollingSpeed() | 定义以毫秒为单位的滚动速度 |
+
+
 
 
 ![BBECC512-C4F1-4251-BFDA-C9DAB020C5D4](BBECC512-C4F1-4251-BFDA-C9DAB020C5D4.png)
