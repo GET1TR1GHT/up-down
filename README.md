@@ -61,7 +61,7 @@ up-down
 
 
 | moveSectionUp() | 向上滚动 |
-|---|---|---|---|
+|---|---|
 | moveSectionDown() | 向下滚动 |
 | moveTo(section, slide) | 滚动到 |
 | moveSlideRight() | slide 向右滚动 |
